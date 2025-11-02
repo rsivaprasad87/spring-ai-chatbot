@@ -1,0 +1,6 @@
+app:
+  openai:
+    embeddingsModel: text-embedding-3-small
+    chatModel: gpt-4o-mini
+server:
+  port: 8080

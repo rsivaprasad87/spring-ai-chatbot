@@ -32,7 +32,7 @@ curl -X POST "http://localhost:8080/chat" -H "Content-Type: application/json" -d
 
 ## Notes
 
-- This project is intentionally minimal and synchronous for clarity.
-- Replace the in-memory `VectorStore` with a production vector DB for large datasets.
-- Be mindful of API costs.
+- Open AI key is not free . Register a key https://platform.openai.com/ and add credits to the account . 
+- Accessing the API without credits in the account will end with rate limit exceeded error (http response code 429) 
+
 
